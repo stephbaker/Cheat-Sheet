@@ -1,0 +1,65 @@
+THIS FILL (mouse allows the colour spec to change as mouse moves)
+
+noStroke();
+
+draw = function() {
+    fill(mouseY, mouseX, 49);
+    ellipse(mouseX, mouseY, 35, 35);
+};
+---------------------------------------------------------------------------
+MAKE SURE TO ALWAYS WORK AS FRACTIONAL SO WHEN ONE SIZE CHANGES ECERYTHING ELSE CHANGES IN RELATIVITY
+
+var faceSize = 661;
+var mouthSize = 1/2 * faceSize;
+var eyeSize = 2/15 * faceSize; // 40/300ths -> 4/30 -> 2/15
+
+HOW TO REMEMBER THE FRACTIONS
+If you look at the ellipse statements for the right eye
+you can see that the x coordinate (first parameter) is 240. 
+Originally, before you played around with it, the x of the face started off at 200 and faceSize started off at 160.
+So, to keep the original offset between the right eye and the center of the face,
+the x coordinate of the right eye should be (240-200)/160 or 1/4 of the size of the face to the right of x.
+---------------------------------------------------------------------------
+
+ABOUT GIT
+
+1. git clone (add wesite url)      - gets file on computer
+2. ls                              - shows list of files on computer
+3. cd (file name)                  - enters file
+4. ls                              - checks list of files in document
+5. git add --all                   - after updates you add all the updates
+6. get commit -m 'message'         - add the message of what you changed
+7. git push --all                  - push back to git hub
+---------------------------------------------------------------------------
+https://showmore.com/  = screen video  
+https://imgur.com/ = Image creator 
+---------------------------------------------------------------------------
+
+ABOUT MARKDOWN
+
+#       -> bold 1
+##      -> bold 2 (little smaller)
+
+//adding a straight in image  
+![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg)
+//adding links and alt text to images 
+[First Father](http://octodex.github.com/images/founding-father.jpg)
+//Another way to add an image by creating a link is to start by making an issue.  
+//Issues let you download and pull files from your computer so if you place and image and copy the URL given
+
+// *BOLD* is for bold  
+// _ITALIC_ is for italic
+
+//Create links by [what you want to say](web URL)  
+//Or add a library by [] []  
+//than later []: ______ []:_______
+[You're **really, really** going to want to see this.](www.dailykitten.com)
+Do you want to [see something fun][a fun place]?
+Well, do I have [the website for you][another fun place]!
+[a fun place]: www.zombo.com
+[another fun place]: www.stumbleupon.com
+
+// *, space, word = unordered list  
+// number, space, word = ordered list  
+//space, *, space, word = sub unordered list  
+// > gives a line boarder thing in front of words
