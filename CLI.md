@@ -32,6 +32,7 @@
 | Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
 | Tab  | Auto-complete files and folder names |
+| * | Select groups of files ( ex. m*.txt = selects all files in working directory starting with m and ending with .txt |
 
 
 ## COMMANDS
@@ -51,3 +52,4 @@
 | touch | creates a new file in a directory | 
 | touch [folder]/[file to create] | creates a file without changing directory |
 | cp [file] [newfile] | Copy file to new file | 
+| cp [file] [dir] |	Copy file to directory |
