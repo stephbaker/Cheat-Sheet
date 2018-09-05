@@ -1,4 +1,10 @@
+# Command Line Cheat Sheet
+
 <img width="257" alt="screen shot 2018-09-05 at 3 02 58 pm" src="https://user-images.githubusercontent.com/42748054/45115068-cc531e00-b11c-11e8-92cb-ec22b56b6df0.png">
+
+### Tips
+- 
+
 
 ## SHORTCUTS
 
@@ -25,3 +31,10 @@
 | Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
 | Tab  | Auto-complete files and folder names |
+
+
+## CORE COMMANDS
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| Clear | Clears the screen |
