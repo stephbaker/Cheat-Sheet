@@ -38,3 +38,10 @@
 | Key/Command | Description |
 | ----------- | ----------- |
 | Clear | Clears the screen |
+| ls | looks at the folder you are in and gives a short list |
+| pwd | Stands for "Print working directory" outputs where you currently are | 
+| cd [folder] | Brings you to a new directory "change directory" | 
+| cd something/something | navigate directly to a specific directory |
+| cd .. | Moves up one directory (moves back one) |
+| mkdir something | add a new directory named something " made directory" |
+| touch | creates a new file in a directory | 
