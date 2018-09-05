@@ -4,6 +4,7 @@
 
 ### Tips
 - Use the up and down arrows to toggle through your previous commands
+- Options modify the behavior of commands.
 
 
 ## SHORTCUTS
@@ -33,15 +34,20 @@
 | Tab  | Auto-complete files and folder names |
 
 
-## CORE COMMANDS
+## COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| Clear | Clears the screen |
+| clear | clears the screen |
 | ls | looks at the folder you are in and gives a short list |
+| ls -a | Listing showing hidden files |
+| ls -l | Listing all content in long format |
+| ls -t | Listing in order of last modified|
 | pwd | Stands for "Print working directory" outputs where you currently are | 
 | cd [folder] | Brings you to a new directory "change directory" | 
-| cd something/something | navigate directly to a specific directory |
+| cd folder] /folder]  | navigate directly to a specific directory |
 | cd .. | Moves up one directory (moves back one) |
 | mkdir something | add a new directory named something " made directory" |
 | touch | creates a new file in a directory | 
+| touch [folder]/[file to create] | creates a file without changing directory |
+| cp [file] [newfile] | Copy file to new file | 
