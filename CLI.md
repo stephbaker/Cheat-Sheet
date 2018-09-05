@@ -57,3 +57,11 @@
 | mv [file] [newfilename] | renames file |
 | rm [file] | deletes files |
 | rm -r [directory] | deletes directory |
+| cat | outputs content of a file |
+
+## DIRECTORY MANAGEMENT
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command] > [file]| Push output to file (note it overwrites what was already on the file) |
+| [command] >> [file]	| Adds output to existing file |
