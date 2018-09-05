@@ -55,3 +55,5 @@
 | cp [file] [dir] |	copy file to directory |
 | mv [file] [dir] | moves files |
 | mv [file] [newfilename] | renames file |
+| rm [file] | deletes files |
+| rm -r [directory] | deletes directory |
