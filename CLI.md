@@ -65,4 +65,4 @@
 | ----------- | ----------- |
 | [command] > [file]| Push output to file (note it overwrites what was already on the file) |
 | [command] >> [file]	| Adds output to existing file |
-|  \\| | "pipes" standard input to the command on left ($ cat volcanoes.txt | wc | cat > islands.txt) takes word count and pipes to cat then redirected to island |
+|  \\| | "pipes" standard input to the command on left ($ cat volcanoes.txt \\| wc \\| cat > islands.txt) takes word count and pipes to cat then redirected to island |
