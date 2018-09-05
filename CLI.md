@@ -51,5 +51,7 @@
 | mkdir something | add a new directory named something " made directory" |
 | touch | creates a new file in a directory | 
 | touch [folder]/[file to create] | creates a file without changing directory |
-| cp [file] [newfile] | Copy file to new file | 
-| cp [file] [dir] |	Copy file to directory |
+| cp [file] [newfile] | copy file to new file | 
+| cp [file] [dir] |	copy file to directory |
+| mv [file] [dir] | moves files |
+| mv [file] [newfilename] | renames file |
