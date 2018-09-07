@@ -69,6 +69,7 @@
 | rm [file] | deletes files |
 | rm -r(f) [directory] | deletes directory |
 | cat | outputs content of a file |
+| less | similar to cat but better at holding bigger files | 
 | tail -5 | prints the last 5 lines of something | 
 | sort | alphabetizes input |
 | uniq | filters out adjacent, duplicate lines (sort deserts.txt //| uniq) is effect to alphabetize and then filter |
