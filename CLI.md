@@ -64,7 +64,7 @@
 | mv [file] [dir] | moves files |
 | mv [file] [newfilename] | renames file |
 | rm [file] | deletes files |
-| rm -rf [directory] | deletes directory |
+| rm -r(f) [directory] | deletes directory |
 | cat | outputs content of a file |
 | tail -5 | prints the last 5 lines of something | 
 | sort | alphabetizes input |
