@@ -73,6 +73,7 @@
 | grep -i | allows command to be case insenitive | 
 | grep -R[directory] | searches all files in a directory and outputs filenames ( -R  stands for "recursive") |
 | grep -Rl | searches all files in a directory and outputs only filenames with matched results. |
+| grep \ [string] - hr | FIGURE OUT WHAT H DOES |
 | sed 's/[word]/[replacement word]/'[text] | "stream editor" and works like a find and replace (only for first instance of word | 
 | sed 's/[word]/[replacement word]/g'[text] | g at the end means global and will replace all instances |
 | nano[file] | opens a new text file "[writing]" is what's in the text and ^ starts for ctrl in the info bank |
