@@ -31,7 +31,8 @@
 | Option + →  | Move cursor one word forward |
 | Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
-| Tab  | Auto-complete files and folder names |
+| Tab | Auto-complete files and folder names |
+| wc | word count | 
 
 
 ## SYMBOLS
