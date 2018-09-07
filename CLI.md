@@ -32,8 +32,16 @@
 | Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
 | Tab  | Auto-complete files and folder names |
-| * | Select groups of files ( ex. m*.txt = selects all files in working directory starting with m and ending with .txt |
 
+
+## SYMBOLS
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| * | Select groups of files ( ex. m*.txt = selects all files in working directory starting with m and ending with .txt |
+| ~ | represents home directory | 
+| . | indicates hidden file | 
+| $ | always used when returning a variable's value | 
 
 ## COMMANDS
 
@@ -58,6 +66,7 @@
 | rm [file] | deletes files |
 | rm -r [directory] | deletes directory |
 | cat | outputs content of a file |
+| tail -5 | prints the last 5 lines of something | 
 | sort | alphabetizes input |
 | uniq | filters out adjacent, duplicate lines (sort deserts.txt //| uniq) is effect to alphabetize and then filter |
 | grep [word] [text] | "global regular expression print" and searches files for lines (careful it's case sensitive | 
@@ -66,6 +75,20 @@
 | grep -Rl | searches all files in a directory and outputs only filenames with matched results. |
 | sed 's/[word]/[replacement word]/'[text] | "stream editor" and works like a find and replace (only for first instance of word | 
 | sed 's/[word]/[replacement word]/g'[text] | g at the end means global and will replace all instances |
+| nano[file] | opens a new text file "[writing]" is what's in the text and ^ starts for ctrl in the info bank |
+| clear | clears the terminal | 
+| nano ~/.bash_profile | opens up the profile | 
+| echo "[words] | echo the string when a new terminal session begins | 
+| source | activates the changes |
+| alias [shortcut]="[original]" | create keyboard shortcuts | 
+
+## ENVIRONMENT VARIABLES
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| export | makes variable availible to all child sessions | 
+| PS1 | variable that defines the makeup style of the command prompt (export PS1=">> ") | 
+| env | "environment", and returns a list of the environment variables for the current user ( PATH, PWD, PS1, HOME) | 
 
 ## DIRECTORY MANAGEMENT
 
