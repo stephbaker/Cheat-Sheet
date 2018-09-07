@@ -58,6 +58,14 @@
 | rm [file] | deletes files |
 | rm -r [directory] | deletes directory |
 | cat | outputs content of a file |
+| sort | alphabetizes input |
+| uniq | filters out adjacent, duplicate lines (sort deserts.txt //| uniq) is effect to alphabetize and then filter |
+| grep [word] [text] | "global regular expression print" and searches files for lines (careful it's case sensitive | 
+| grep -i | allows command to be case insenitive | 
+| grep -R[directory] | searches all files in a directory and outputs filenames ( -R  stands for "recursive") |
+| grep -Rl | searches all files in a directory and outputs only filenames with matched results. |
+| sed 's/[word]/[replacement word]/'[text] | "stream editor" and works like a find and replace (only for first instance of word | 
+| sed 's/[word]/[replacement word]/g'[text] | g at the end means global and will replace all instances |
 
 ## DIRECTORY MANAGEMENT
 
