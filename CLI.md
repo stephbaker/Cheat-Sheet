@@ -93,7 +93,7 @@
 | ----------- | ----------- |
 | export | makes variable availible to all child sessions | 
 | PS1 | variable that defines the makeup style of the command prompt (export PS1=">> ") | 
-| env | "environment", and returns a list of the environment variables for the current user ( PATH, PWD, PS1, HOME) | 
+| env | "environment", and returns a list of the environment variables for the current user ( PATH, PWD, PS1, HOME) ex. env \\| grep LESS| 
 
 ## DIRECTORY MANAGEMENT
 
