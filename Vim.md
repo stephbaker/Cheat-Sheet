@@ -29,3 +29,4 @@
 | d | is the delete command |
 | dw | deletes words | 
 | p | pastes | 
+| . | repeat the previous command |
