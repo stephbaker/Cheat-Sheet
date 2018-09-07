@@ -5,6 +5,8 @@
 ### Tips
 - Use the up and down arrows to toggle through your previous commands
 - Options modify the behavior of commands.
+- ~/.bash_profile is where settings are stored
+- nano editor is a command line text editor
 
 
 ## SHORTCUTS
