@@ -27,3 +27,5 @@
 6. 'git pull' updates the local line of development with updates
 7. 'git push' updates the remote repository with local updates
 6. 'git rm [file]' remove files from git
+
+<img width="594" alt="screen shot 2018-09-09 at 6 23 18 pm" src="https://user-images.githubusercontent.com/42748054/45269503-7acccb00-b45d-11e8-8577-25336980b3e5.png">
