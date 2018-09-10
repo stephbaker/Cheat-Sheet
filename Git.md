@@ -29,3 +29,7 @@
 6. 'git rm [file]' remove files from git
 
 <img width="594" alt="screen shot 2018-09-09 at 6 23 18 pm" src="https://user-images.githubusercontent.com/42748054/45269503-7acccb00-b45d-11e8-8577-25336980b3e5.png">
+
+You create your branch and then update the files within the branch to psuh it back to github and then from there you can create a merge request for it to be added into the main file.
+
+<img width="566" alt="screen shot 2018-09-10 at 11 33 08 am" src="https://user-images.githubusercontent.com/42748054/45307599-6506e680-b4ed-11e8-935e-ce2706a494e8.png">
