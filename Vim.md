@@ -7,6 +7,7 @@
 | ----------- | ----------- |
 | :w | save | 
 | :q | quit |
+| a/A | append |
 | :q! | quit without saving | 
 | u | undo | 
 | ctrl+R | redo | 
@@ -34,7 +35,10 @@
 | x/X | delete character under the cursor and to the left of the cursor |
 | r | replace one character under your cursor | 
 | d | is the delete command |
+| D | delete to the end of the line |
 | dw | deletes words | 
 | p | pastes | 
 | . | repeat the previous command |
 | v | visual mode (ve selects the word) |
+| yy | copy current line | 
+| p | paste copied text after cursor | 
