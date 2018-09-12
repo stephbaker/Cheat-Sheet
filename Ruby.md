@@ -10,3 +10,4 @@
 | [string].length | return the length of the string (letters,numbers, spaces, symbols) |
 | [string].reverse | returns the backwards version of the string you gave | 
 | [string].upcase/downcase | returns ALL CAPS/lowercase |
+| .to_s | converts number to a string |
