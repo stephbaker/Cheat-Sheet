@@ -1,4 +1,8 @@
 # Ruby
+
+## Tips
+- (condition) ? (true_return_value) : (false_return_value)
+
 | code | use | 
 |------|-----|
 | # | comments | 
