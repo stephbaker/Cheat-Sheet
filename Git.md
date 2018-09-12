@@ -17,6 +17,7 @@
 - "git branch" show branches
 - "git branch [branchName]"  create branch
 - "git branch -m branchname new_branchname" rename branch
+- "git mv old_filename new_filename" rename file
 
 ### Steps
 1. 'git init' initialize git
