@@ -42,3 +42,4 @@
 | v | visual mode (ve selects the word) |
 | yy | copy current line | 
 | p | paste copied text after cursor | 
+| c/C | change/change to end of line | 
