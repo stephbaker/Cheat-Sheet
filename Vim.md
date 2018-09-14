@@ -30,6 +30,7 @@
 | gg | takes you to the beginning of file | 
 | G | takes you to the end of the file (ex. 2G takes you to second line) | 
 | /[text] | searches for text | 
+| ?[word} | search backwards for word | 
 | n/N | next/previus occurances | 
 | o/O | create new line | 
 | x/X | delete character under the cursor and to the left of the cursor |
@@ -43,3 +44,5 @@
 | yy | copy current line | 
 | p | paste copied text after cursor | 
 | c/C | change/change to end of line | 
+| :%s/hi/bye/g(c) | replace hi with bye in whole file (c asks for confirmation)| 
+
