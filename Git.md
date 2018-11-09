@@ -18,6 +18,7 @@
 - "git branch [branchName]"  create branch
 - "git branch -m branchname new_branchname" rename branch
 - "git mv old_filename new_filename" rename file
+- "git reset --hard HEAD~1" undos last mistake commit
 
 ### Steps
 1. 'git init' initialize git
